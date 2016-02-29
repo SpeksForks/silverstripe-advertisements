@@ -19,7 +19,7 @@ class AdAdmin extends ModelAdmin {
 
 /*
 class AdAdmin_Controller extends ModelAdmin_CollectionController {
-	function getResultsTable($searchCriteria) {
+    public function getResultsTable($searchCriteria) {
 		$summaryFields = $this->getResultColumns($searchCriteria);
 
 		if ($this->modelClass == 'Advertisement') {

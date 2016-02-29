@@ -46,7 +46,7 @@ class AdImpression extends DataObject {
 }
 
 
-function get_browser_info()
+    public function get_browser_info()
 {
     $u_agent = $_SERVER['HTTP_USER_AGENT'];
 // $u_agent = 'MSIE win32';
